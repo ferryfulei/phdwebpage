@@ -1,0 +1,56 @@
+@media only screen and (max-width: 480px){
+  #left{
+        height: 100%;
+  }
+}
+#left{
+  background-image:   linear-gradient(black,#0B5294);
+  color: white;
+  height:auto;
+  font-family: sans-serif;
+}
+#profile{
+  margin-top: 6rem;
+  text-align: center;
+}
+#headline{
+  margin-top: 4rem;
+}
+#contact{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 2px solid #fff
+}
+#photo{
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(255,255,255,.2), 0 6px 20px 0 rgba(255,255,255,.19);
+}
+#name{
+  padding-top: 1.5rem
+}
+.nav-item{
+  padding: 1rem 0rem 1rem 0rem;
+  width: 33%;
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: darkblue solid 3px;
+}
+a{
+  color: darkblue;
+}
+.main h5{
+  font-size: 2rem;
+}
+.main h3{
+  margin-top: 1.5rem;
+  border-bottom: 8px solid darkblue;
+  padding-bottom: 1rem;
+  width: fit-content;
+  font-size: 2.5rem;
+}
+.main p{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
