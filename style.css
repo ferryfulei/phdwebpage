@@ -30,6 +30,15 @@
 #name{
   padding-top: 1.5rem
 }
+.nav{
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  width: calc(100% - 345px);
+  background-color: white;
+}
 .nav-item{
   padding: 1rem 0rem 1rem 0rem;
   width: 33%;
@@ -39,6 +48,9 @@
 }
 a{
   color: darkblue;
+}
+.main{
+  margin-top: 12rem;
 }
 .main h5{
   font-size: 2rem;
@@ -53,4 +65,30 @@ a{
 .main p{
   margin-top: 1rem;
   font-size: 1.5rem;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: calc(100% - 345px);
+    background-color: white;
+}
+@media only screen and (max-width: 980px) {
+  #navbar{
+    position: relative;
+    width: 100%;
+  }
+  #navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
 }
