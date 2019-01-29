@@ -51,6 +51,7 @@ a{
 }
 .main{
   margin-top: 12rem;
+  padding: 1rem;
 }
 .main h5{
   font-size: 2rem;
@@ -80,6 +81,9 @@ a{
     position: fixed;
     width: calc(100% - 345px);
     background-color: white;
+}
+#maincontainer{
+  padding: 0;
 }
 @media only screen and (max-width: 980px) {
   #navbar{
